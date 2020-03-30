@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
-const Desc = () => {
-    const [desc, setDesc] = useState([]);
+const Dates = () => {
+    const [date, setDate] = useState([]);
 
     return (
       <h3>Test</h3>
     );
 }
 
-export default Desc;
+export default Dates;

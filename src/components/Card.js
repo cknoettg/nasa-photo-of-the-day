@@ -1,10 +1,11 @@
 //will contain all of the smaller components
 import React, { useState, useEffect } from "react";
-import ".components/Title";
-import ".components/Date";
-import ".components/Image";
-import ".components/Desc";
-import ".components/Footer";
+import axios from '../../../node_modules/axios';
+import Title from "./components/Title";
+import Dates from "./components/Dates";
+import Image from "./components/Image";
+import Desc from "./components/Desc";
+import Footer from "./components/Footer";
 
 const Card = () => {
     const [card, setCard] = useState([]);
@@ -21,12 +22,14 @@ const Card = () => {
     }, []);
 
     return (
-        <div className="card">
-            <Title></Title>
-            <Date></Date>
-            <Image></Image>
-            <Desc></Desc>
-            <Footer></Footer>
+        <div className="cards">
+            <Title />
+            <Dates />
+            <Image />
+            <Desc />
+            <Footer />
         </div>
     );
 }
+
+export default Card;
