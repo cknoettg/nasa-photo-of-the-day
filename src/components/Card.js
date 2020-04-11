@@ -1,11 +1,11 @@
 //will contain all of the smaller components
 import React, { useState, useEffect } from "react";
-import axios from '../../../node_modules/axios';
-import Title from "./components/Title";
-import Dates from "./components/Dates";
-import Image from "./components/Image";
-import Desc from "./components/Desc";
-import Footer from "./components/Footer";
+import axios from "../../node_modules";
+import Title from "./Title";
+import Dates from "./Dates";
+import Image from "./Image";
+import Desc from "./Desc";
+import Footer from "./Footer";
 
 const Card = () => {
     const [card, setCard] = useState([]);
