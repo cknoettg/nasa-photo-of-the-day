@@ -1,6 +1,6 @@
 //will contain all of the smaller components
 import React, { useState, useEffect } from "react";
-import axios from "../../node_modules";
+import axios from "axios";
 import Title from "./Title";
 import Dates from "./Dates";
 import Image from "./Image";
