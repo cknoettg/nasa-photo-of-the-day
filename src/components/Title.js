@@ -4,7 +4,7 @@ const Title = props => {
     const [title, setTitle] = useState([]);
 
     return (
-      <h3>{props.title}</h3>
+      <h3 style={{padding: '5%'}}>{props.title}</h3>
     );
 }
 
