@@ -4,7 +4,7 @@ const Footer = () => {
     const [foot, setFoot] = useState([]);
 
     return (
-      <h3>Test</h3>
+      <h3>Courtesy of Corey M. Knoettgen/NASA, 2020</h3>
     );
 }
 

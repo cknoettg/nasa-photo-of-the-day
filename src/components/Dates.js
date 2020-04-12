@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-const Dates = () => {
+const Dates = props => {
     const [date, setDate] = useState([]);
 
     return (
-      <h3>Test</h3>
+      <h3>{props.date}</h3>
     );
 }
 

@@ -24,9 +24,9 @@ const Card = () => {
     return (
         <div className="cards">
             <Title title={card.title} />
-            <Dates />
-            <Image />
-            <Desc />
+            <Dates date={card.date} />
+            <Image src={card.url} />
+            <Desc desc={card.explanation} />
             <Footer />
         </div>
     );

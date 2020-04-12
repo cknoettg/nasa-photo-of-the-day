@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-const Image = () => {
+const Image = props => {
     const [img, setImg] = useState([]);
 
     return (
-      <h3>Test</h3>
+      <img src={props.url} alt="Image Not Loaded"></img>
     );
 }
 

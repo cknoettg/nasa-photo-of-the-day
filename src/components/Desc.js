@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-const Desc = () => {
+const Desc = props => {
     const [desc, setDesc] = useState([]);
 
     return (
-      <h3>Test</h3>
+      <h3>{props.desc}</h3>
     );
 }
 
