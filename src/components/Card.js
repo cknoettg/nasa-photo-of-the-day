@@ -23,7 +23,7 @@ const Card = () => {
 
     return (
         <div className="cards">
-            <Title />
+            <Title title={card.title} />
             <Dates />
             <Image />
             <Desc />

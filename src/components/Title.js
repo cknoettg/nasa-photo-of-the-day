@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-const Title = () => {
+const Title = props => {
     const [title, setTitle] = useState([]);
 
     return (
-      <h3>Test</h3>
+      <h3>{props.title}</h3>
     );
 }
 
