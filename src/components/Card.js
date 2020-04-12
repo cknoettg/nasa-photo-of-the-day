@@ -25,7 +25,7 @@ const Card = () => {
         <div className="cards">
             <Title title={card.title} />
             <Dates date={card.date} />
-            <Image src={card.url} />
+            <Image imag={card.hdurl} />
             <Desc desc={card.explanation} />
             <Footer />
         </div>

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import "./Desc.css";
 
 const Desc = props => {
     const [desc, setDesc] = useState([]);
 
     return (
-      <h3>{props.desc}</h3>
+      <h3 class="nice">{props.desc}</h3>
     );
 }
 

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 const Image = props => {
-    const [img, setImg] = useState([]);
+    const [imag, setImag] = useState([]);
 
     return (
-      <img src={props.url} alt="Image Not Loaded"></img>
+      <img src={props.imag} alt="Image Not Loaded"></img>
     );
 }
 
