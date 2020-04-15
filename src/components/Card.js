@@ -6,6 +6,7 @@ import Dates from "./Dates";
 import Image from "./Image";
 import Desc from "./Desc";
 import Footer from "./Footer";
+import "./Card.css";
 
 const Card = () => {
     const [card, setCard] = useState([]);
