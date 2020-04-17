@@ -6,13 +6,11 @@ import styled from "styled-components";
 //added styled components pieces, removed css files
 //unique variable names can allow us to add styling
 //  without even using class names in some instances
-const CardStyle = styled.div`
-  width:75%;
-`;
 
 //changed infinite to 5s
 const H1Style = styled.h1`
   height: 40vmin;
+  font-size: 96px;
   pointer-events: none;
   margin: 5%;
   color: rgb(0, 255, 85);
@@ -27,6 +25,10 @@ const H1Style = styled.h1`
         transform: rotate(360deg);
       }
     }
+`;
+
+const CardStyle = styled.div`
+  width:75%;
 `;
 
 function App() {
