@@ -10,14 +10,30 @@ const CardStyle = styled.div`
   width:75%;
 `;
 
-
+//changed infinite to 5s
+const H1Style = styled.h1`
+  height: 40vmin;
+  pointer-events: none;
+  margin: 5%;
+  color: rgb(0, 255, 85);
+  @media (prefers-reduced-motion: no-preference) {
+       animation: App-logo-spin 5s 20s linear;
+    }
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+`;
 
 function App() {
   return (
     <div className="App">
-      <h1 className="App-logo">NASA Photo of the Day</h1>
-      <CardStyle cards />
-      <Card />
+      <H1Style>NASA Photo of the Day</H1Style>
+      <CardStyle><Card /></CardStyle>      
     </div>
   );
 }
