@@ -4,14 +4,13 @@ import Card from "./components/Card";
 import styled from "styled-components";
 
 //added styled components pieces, removed css files
-//we create a style that we plan on attaching to our div with class
-//  name 'cards'
-//if we had a second div with a different class name, then we would
-//  create a second styled.div variable, and just call it later in
-//  our JSX with 'second-div-classname' as modifier
+//unique variable names can allow us to add styling
+//  without even using class names in some instances
 const CardStyle = styled.div`
   width:75%;
 `;
+
+
 
 function App() {
   return (

@@ -6,6 +6,7 @@ import Dates from "./Dates";
 import Image from "./Image";
 import Desc from "./Desc";
 import Footer from "./Footer";
+import styled from "styled-components";
 //removed Card.css reference - deleted Card.css file
 
 const Card = () => {
